@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    overflow: hidden;
+}
+h3{
+    margin: 0;
+}
+
+header{
+    background-color: #f8f8ff;
+    height: 100vh;
+    
+}
+
+nav{
+    background-color: rgb(255, 255, 255);
+    color: white;
+    padding: 3rem;
+
+}
+.sidebar{
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 1rem;
+    text-align: center;
+    background-color: whitesmoke;
+    height: 100vh;
+    width: 5rem;
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.4);
+}
+
+.container{
+    position: absolute;
+    width:100vw;
+}
+
+.input{
+    position: relative;
+    top: 60%;
+    left: 5%;
+    text-align: center;
+}
+#input{
+    padding: 0.5rem;
+    margin: 1rem 0rem;
+    border: none;
+    border-radius: 5px;
+}
+.upload{
+    position: relative;
+    top: 50%;
+    left: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:150px;
+    width: 150px;
+    background-color: white;
+    margin: 2rem 0rem;
+    text-align: center;
+}
+.upload h3{
+
+ margin: 50%;
+ font-size: 1rem;
+}
+
+.container p{
+    margin-left: 8rem;
+    font-weight: 600;
+    font-size: 1rem;
+}
+.items{
+    margin: 2.5rem auto;
+}
+.sidebar-items{
+    margin: 2rem 0rem;
+
+}
+.sidebar-items p{
+    font-size: 0.8rem;
+    font-weight: bold;
+}
